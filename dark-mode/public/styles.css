@@ -589,3 +589,36 @@ video {
 .m-6 {
 	margin: 1.5rem;
 }
+.mb-10 {
+	margin-bottom: 2.5rem;
+}
+.mb-4 {
+	margin-bottom: 1rem;
+}
+.bg-white {
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+.p-2 {
+	padding: 0.5rem;
+}
+.text-5xl {
+	font-size: 3rem;
+	line-height: 1;
+}
+.text-gray-600 {
+	--tw-text-opacity: 1;
+	color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+@media (prefers-color-scheme: dark) {
+
+	.dark\:bg-gray-800 {
+		--tw-bg-opacity: 1;
+		background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+	}
+
+	.dark\:text-white {
+		--tw-text-opacity: 1;
+		color: rgba(255, 255, 255, var(--tw-text-opacity));
+	}
+}

@@ -4,7 +4,7 @@ module.exports = {
     './public/index.html'
   ],
   mode: 'jit',
-  darkMode: false,
+  darkMode: 'media',
   theme: {
     extend: {},
   },
