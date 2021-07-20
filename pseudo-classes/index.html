@@ -103,6 +103,22 @@
         <section class="mb-10 h-20 w-full bg-green-800/60 -rotate-6 background-blur-sm">
             Simplified transform and filter classes
         </section>
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">CSS variable arbitrary value</h1>
+            <style>
+                :root {
+                    --color-blue: #0099ff;
+                    --text-big: 1.5rem;
+                }
+
+            </style>
+            <p class="text-[color:var(--color-blue)]">
+                Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff
+            </p>
+            <p class="text-[length:var(--text-big)]">
+                Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff
+            </p>
+        </section>
 
     </body>
 </html>
