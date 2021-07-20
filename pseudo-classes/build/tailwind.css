@@ -637,6 +637,18 @@ video {
   margin-top: 0.25rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .grid {
   display: grid;
 }
@@ -658,6 +670,10 @@ video {
   transform: var(--tw-transform);
 }
 
+.transform {
+  transform: var(--tw-transform);
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -676,6 +692,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-gray-300 {
@@ -733,6 +753,11 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -774,6 +799,10 @@ video {
 
 .caret-yellow-400 {
   caret-color: #fbbf24;
+}
+
+.filter {
+  filter: var(--tw-filter);
 }
 
 .first-letter\:text-3xl::first-letter {

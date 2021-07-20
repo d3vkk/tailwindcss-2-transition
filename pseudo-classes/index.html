@@ -8,65 +8,80 @@
         <link rel="stylesheet" href="./build/tailwind.css">
     </head>
     <body class="m-6">
-        <!-- Pseudoelements: Before and After - For text without spaces -->
-        <p
-            class="my-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-yellow-400 before:content-['“'] after:bottom-0 after:rigtht-0 after:text-4xl after:text-yellow-400 after:content-['”']">
-            Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a
-            spring upon her cable
-        </p>
-        <!-- Pseudoelements: Before & After - For text containing spaces -->
-        <p before=" “ “" after="” ”"
-            class="mb-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-green-400 before:content-[attr(before)] after:bottom-0 after:rigtht-0 after:text-4xl after:text-green-400 after:content-[attr(after)]">
-            Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a
-            spring upon her cable
-        </p>
-        <h1 class="mb-8 text-red-500 text-3xl w-[321px]">Hello world</h1>
-        <p class="mb-8 text-gray-700 first-letter:text-3xl first-letter:font-black first-letter:text-yellow-500
-            first-line:text-green-300 selection:bg-blue-200 selection:text-blue-800">
-            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast
-            quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
-            starboard grog black jack gangway rutters.
-        </p>
-        <ul class="mb-8">
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-                A
-            </li>
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-                B
-            </li>
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-                C
-            </li>
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-                D
-            </li>
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-            </li>
-            <li
-                class="p-2 rounded-full bg-yellow-100 text-yellow-800 my-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
-                E
-            </li>
-        </ul>
-        <ul class="mb-8 grid grid-cols-2 gap-6">
-            <li class="peer">
-                <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
-            </li>
-            <li class="peer-hover:opacity-20">
-                <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
-            </li>
-            <li class="peer-hover:opacity-20">
-                <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
-            </li>
-            <li class="peer-hover:opacity-20">
-                <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
-            </li>
-        </ul>
-        <section class="mb-8">
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Pseudoelements: before and after</h1>
+            <!-- Pseudoelements: Before and After - For text without spaces -->
+            <p
+                class="mb-2 text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-yellow-400 before:content-['“'] after:bottom-0 after:rigtht-0 after:text-4xl after:text-yellow-400 after:content-['”']">
+                Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
+                Bring a
+                spring upon her cable
+            </p>
+            <!-- Pseudoelements: Before & After - For text containing spaces -->
+            <p before=" “ “" after="” ”"
+                class="text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-green-400 before:content-[attr(before)] after:bottom-0 after:rigtht-0 after:text-4xl after:text-green-400 after:content-[attr(after)]">
+                Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
+                Bring a
+                spring upon her cable
+            </p>
+        </section>
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Pseudoclasses: first-letter, first-line and selection</h1>
+            <p class="mb-8 text-gray-700 first-letter:text-3xl first-letter:font-black first-letter:text-yellow-500
+                first-line:text-green-300 selection:bg-blue-200 selection:text-blue-800">
+                Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone
+                mizzenmast
+                quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
+                starboard grog black jack gangway rutters.
+            </p>
+        </section>
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Pseudoclasses: first-of-type and last-of-type</h1>
+            <ul>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 mb-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                    A
+                </li>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 mb-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                    B
+                </li>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 mb-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                    C
+                </li>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 mb-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                    D
+                </li>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 mb-2 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                </li>
+                <li
+                    class="p-2 rounded-full bg-yellow-100 text-yellow-800 first-of-type:bg-gray-100 last-of-type:bg-red-100">
+                    E
+                </li>
+            </ul>
+        </section>
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Sibling selector: peer</h1>
+            <ul class="grid grid-cols-2 gap-6">
+                <li class="peer">
+                    <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
+                </li>
+                <li class="peer-hover:opacity-20">
+                    <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
+                </li>
+                <li class="peer-hover:opacity-20">
+                    <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
+                </li>
+                <li class="peer-hover:opacity-20">
+                    <img src="windows-xp-bg.webp" alt="Tailwind CSS Logo" class="w-full rounded object-cover">
+                </li>
+            </ul>
+        </section>
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Sibling selector: peer-placeholder</h1>
             <textarea cols="30" rows="10" placeholder="Type away..."
                 class="peer w-full border-2 border-gray-300 px-4 py-3 focus:outline-none focus:ring-1 focus-ring-yellow-400 focus:border-yellow-400"></textarea>
             <p
@@ -74,16 +89,20 @@
                 This turns green when you start typing in the textarea
             </p>
         </section>
-        <section class="mb-8">
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Per-side border color</h1>
             <textarea cols="30" rows="5"
                 class="w-full border-2 border-gray-300 border-t-yellow-400 px-4 py-3 focus:outline-none focus:ring-1 focus-ring-yellow-400 focus:border-yellow-400"></textarea>
         </section>
-        <section class="mb-8">
+        <section class="mb-10">
+            <h1 class="text-5xl mb-4">Caret color change</h1>
             <textarea cols="30" rows="5"
                 class="w-full border-2 border-gray-300 caret-yellow-400 px-4 py-3 focus:outline-none focus:ring-1 focus-ring-yellow-400 focus:border-yellow-400"></textarea>
         </section>
-        <section class="mb-8 h-20 w-full bg-blue-800/60"></section>
-        <section class="mb-8 h-20 w-full bg-green-800/60 -rotate-6 background-blur-sm"></section>
+        <section class="mb-10 h-20 w-full bg-blue-800/60">Color and opacity shorthand</section>
+        <section class="mb-10 h-20 w-full bg-green-800/60 -rotate-6 background-blur-sm">
+            Simplified transform and filter classes
+        </section>
 
     </body>
 </html>
