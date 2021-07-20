@@ -641,6 +641,10 @@ video {
   display: grid;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-\[321px\] {
   width: 321px;
 }
@@ -687,6 +691,10 @@ video {
 .bg-green-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+}
+
+.bg-blue-800\/60 {
+  background-color: rgba(30, 64, 175, 0.6);
 }
 
 .object-cover {
