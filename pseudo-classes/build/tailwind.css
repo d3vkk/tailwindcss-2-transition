@@ -755,6 +755,10 @@ video {
   color: rgba(6, 95, 70, var(--tw-text-opacity));
 }
 
+.caret-yellow-400 {
+  caret-color: #fbbf24;
+}
+
 .first-letter\:text-3xl::first-letter {
   font-size: 1.875rem;
   line-height: 2.25rem;
