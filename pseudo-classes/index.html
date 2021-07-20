@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="./build/tailwind.css">
     </head>
     <body class="m-6">
-        <!-- Pseudoelement: Before - For text without spaces -->
-        <p class="my-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0
-            before:text-8xl before:text-yellow-400 before:content-['“']">
+        <!-- Pseudoelements: Before and After - For text without spaces -->
+        <p
+            class="my-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-yellow-400 before:content-['“'] after:bottom-0 after:rigtht-0 after:text-4xl after:text-yellow-400 after:content-['”']">
             Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a
             spring upon her cable
         </p>
-        <!-- Pseudoelement: Before - For text containing spaces -->
-        <p before="“ “" class="mb-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0
-            before:text-8xl before:text-green-400 before:content-[attr(before)]">
+        <!-- Pseudoelements: Before & After - For text containing spaces -->
+        <p before=" “ “" after="” ”"
+            class="mb-8 text-gray-700 font-serif text-xl italic before:top-0 before:left-0 before:text-4xl before:text-green-400 before:content-[attr(before)] after:bottom-0 after:rigtht-0 after:text-4xl after:text-green-400 after:content-[attr(after)]">
             Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a
             spring upon her cable
         </p>
