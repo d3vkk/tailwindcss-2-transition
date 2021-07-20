@@ -629,6 +629,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .w-\[321px\] {
   width: 321px;
 }
