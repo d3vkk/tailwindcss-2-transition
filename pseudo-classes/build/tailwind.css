@@ -650,19 +650,32 @@ video {
   padding: 0.5rem;
 }
 
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgba(239, 68, 68, var(--tw-text-opacity));
+.italic {
+  font-style: italic;
 }
 
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
 
 .text-yellow-800 {
@@ -727,6 +740,47 @@ video {
 .selection\:text-blue-800::selection {
   --tw-text-opacity: 1;
   color: rgba(30, 64, 175, var(--tw-text-opacity));
+}
+
+.before\:absolute::before {
+  content: "";
+  position: absolute;
+}
+
+.before\:top-0::before {
+  content: "";
+  top: 0px;
+}
+
+.before\:left-0::before {
+  content: "";
+  left: 0px;
+}
+
+.before\:text-8xl::before {
+  content: "";
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.before\:text-yellow-400::before {
+  content: "";
+  --tw-text-opacity: 1;
+  color: rgba(251, 191, 36, var(--tw-text-opacity));
+}
+
+.before\:text-green-400::before {
+  content: "";
+  --tw-text-opacity: 1;
+  color: rgba(52, 211, 153, var(--tw-text-opacity));
+}
+
+.before\:content-\[\'\201C\'\]::before {
+  content: '“';
+}
+
+.before\:content-\[attr\(before\)\]::before {
+  content: attr(before);
 }
 
 .first-of-type\:bg-gray-100:first-of-type {
