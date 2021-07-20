@@ -633,17 +633,42 @@ video {
   margin-bottom: 2rem;
 }
 
+.grid {
+  display: grid;
+}
+
 .w-\[321px\] {
   width: 321px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .bg-yellow-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2 {
@@ -791,4 +816,8 @@ video {
 .last-of-type\:bg-red-100:last-of-type {
   --tw-bg-opacity: 1;
   background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+}
+
+.peer:hover ~ .peer-hover\:opacity-20 {
+  opacity: 0.2;
 }
