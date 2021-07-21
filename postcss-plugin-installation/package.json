@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-2-transition",
+  "version": "1.0.0",
+  "scripts": {
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/styles.css",
+    "build": "postcss ./src/styles.css -o ./public/styles.css",
+    "dev": "postcss ./src/styles.css -o ./public/styles.css -w"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  },
+  "license": "MIT"
+}
