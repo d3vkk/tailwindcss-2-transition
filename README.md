@@ -6,6 +6,10 @@ For transitioning from Tailwindcss 1 to 2. Contains most of the changes and new 
 
 [TailwindLabs: What's New in Tailwind CSS v2.2 Tutorial](https://www.youtube.com/watch?v=DxcJbrs6rKk)
 
+[Tailwind CSS v2.1 Tutorial](https://blog.tailwindcss.com/tailwindcss-2-1)
+
+[Tailwind CSS v2.0 Tutorial](https://blog.tailwindcss.com/tailwindcss-v2)
+
 Fork or clone this repo
 ```
 git clone https://github.com/d3vkk/tailwindcss-2-transition.git
