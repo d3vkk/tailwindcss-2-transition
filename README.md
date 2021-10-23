@@ -10,6 +10,18 @@ For transitioning from Tailwindcss 1 to 2. Contains most of the changes and new 
 
 [Tailwind CSS v2.0 Tutorial](https://blog.tailwindcss.com/tailwindcss-v2)
 
+## Contribution
+
+To contribute, [use this guide](https://github.com/d3vkk/open-source/blob/master/CONTRIBUTING.md)
+
+## Usage
+
+Star this repo for future reference
+
+Press `.` to open in browser-based Vscode
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/d3vkk/tailwindcss-2-transition)
+
 Fork or clone this repo
 ```
 git clone https://github.com/d3vkk/tailwindcss-2-transition.git
